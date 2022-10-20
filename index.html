@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Rating state start -->
+  <div class="card">
+    <div class="card-content-question" id="question-content">
+      <div class="icon">
+        <img src="images/icon-star.svg" alt="Star icon">
+      </div>
+      <h1>
+        How did we do?
+      </h1>
+      <div class="message">
+        Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!
+      </div>
+
+      <div class="ratings">
+        <div class="rating-button">
+          1
+        </div>
+        <div class="rating-button">
+          2
+        </div>
+        <div class="rating-button">
+          3
+        </div>
+        <div class="rating-button">
+          4
+        </div>
+        <div class="rating-button">
+          5
+        </div>
+
+      </div>
+      <div id="submit">
+        Submit
+      </div>
+    </div>
+    <div class="card-content-thanks" id="thanks-content" hidden >
+      <div class="center-content">
+        <div class="thanks">
+          <img src="images/illustration-thank-you.svg" alt="Thank you illustration">
+        </div>
+        <div class="rating-results">
+          You selected <span id="selected-rating"></span> out of 5
+        </div>
+        <h1>
+          Thank you!
+        </h1>
+        <div class="message">
+          We appreciate you taking the time to give a rating. If you ever need more support,
+          don’t hesitate to get in touch!
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+
+  <!-- You selected  Add rating here  out of 5
+
+ 
+
+   -->
+
+  <!-- Thank you state end -->
+
+
+</body>
+
+</html>
